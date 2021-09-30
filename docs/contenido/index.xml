@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contenidos on WebFachera</title>
-    <link>https://MarioAlbar.github.io/PaginaPocha.git/contenido/</link>
+    <link>https://MarioAlbar.github.io/PaginaPocha/contenido/</link>
     <description>Recent content in Contenidos on WebFachera</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Sep 2021 17:09:50 +0200</lastBuildDate>
     
-	<atom:link href="https://MarioAlbar.github.io/PaginaPocha.git/contenido/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://MarioAlbar.github.io/PaginaPocha/contenido/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Descargas</title>
-      <link>https://MarioAlbar.github.io/PaginaPocha.git/contenido/descargas/</link>
+      <link>https://MarioAlbar.github.io/PaginaPocha/contenido/descargas/</link>
       <pubDate>Thu, 30 Sep 2021 17:09:50 +0200</pubDate>
       
-      <guid>https://MarioAlbar.github.io/PaginaPocha.git/contenido/descargas/</guid>
+      <guid>https://MarioAlbar.github.io/PaginaPocha/contenido/descargas/</guid>
       <description>Descargar ficheros   Related files   celula.pdf  (5532 kb)    </description>
     </item>
     
