@@ -1,0 +1,33 @@
+baseURL = "https://MarioAlbar.github.io"
+languageCode = "en-us"
+title = "WebFachera"
+theme = "learn"
+
+
+
+[outputs]
+home = ["HTML","RSS","JSON"]
+
+[[menu.shortcuts]] 
+name = "<i class='fas fa-laugh-wink'></i> Icons"
+identifier = "icons"
+url = "https://fontawesome.com/v5.15/icons?d=gallery&p=2"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-wikipedia-w'></i> WikiEducator"
+url = "https://es.wikieducator.org/Usuario:ManuelRomero"
+weight = 11
+
+[[menu.shortcuts]]
+name = " <i class='fas fa-info'></i>  Learn Documentation"
+identifier = "learn"
+url = "https://learn.netlify.app/en/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-medium-m'> </i> Moodle"
+url = "http://moodle.cpilosenlaces.com/"
+weight = 30
+
+

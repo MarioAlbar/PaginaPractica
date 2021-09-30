@@ -1,0 +1,9 @@
+[submodule "themes/Bootstrap"]
+	path = themes/Bootstrap
+	url = https://github.com/spech66/bootstrap-bp-hugo-startpage.git
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule "themes/learn"]
+	path = themes/learn
+	url = https://github.com/matcornic/hugo-theme-learn.git
