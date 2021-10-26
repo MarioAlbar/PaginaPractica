@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://marioaldea.infenlaces.com/Hugo/Practica1/fr/categories/</loc>
+    <loc>https://marioalbar.github.io/PaginaPocha/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/en/categories/"
+                href="https://marioalbar.github.io/PaginaPocha/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/categories/"
+                href="https://marioalbar.github.io/PaginaPocha/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/fr/categories/"
+                href="https://marioalbar.github.io/PaginaPocha/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://marioaldea.infenlaces.com/Hugo/Practica1/fr/</loc>
+    <loc>https://marioalbar.github.io/PaginaPocha/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/en/"
+                href="https://marioalbar.github.io/PaginaPocha/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/"
+                href="https://marioalbar.github.io/PaginaPocha/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/fr/"
+                href="https://marioalbar.github.io/PaginaPocha/fr/"
                 />
   </url>
   
   <url>
-    <loc>http://marioaldea.infenlaces.com/Hugo/Practica1/fr/tags/</loc>
+    <loc>https://marioalbar.github.io/PaginaPocha/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/en/tags/"
+                href="https://marioalbar.github.io/PaginaPocha/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/tags/"
+                href="https://marioalbar.github.io/PaginaPocha/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://marioaldea.infenlaces.com/Hugo/Practica1/fr/tags/"
+                href="https://marioalbar.github.io/PaginaPocha/fr/tags/"
                 />
   </url>
   
