@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://marioalbar.github.io/Practica1/fr/categories/</loc>
+    <loc>https://marioalbar.github.io/Practica/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica1/en/categories/"
+                href="https://marioalbar.github.io/Practica/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica1/categories/"
+                href="https://marioalbar.github.io/Practica/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://marioalbar.github.io/Practica1/fr/categories/"
+                href="https://marioalbar.github.io/Practica/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica1/fr/</loc>
+    <loc>https://marioalbar.github.io/Practica/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica1/en/"
+                href="https://marioalbar.github.io/Practica/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica1/"
+                href="https://marioalbar.github.io/Practica/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://marioalbar.github.io/Practica1/fr/"
+                href="https://marioalbar.github.io/Practica/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica1/fr/tags/</loc>
+    <loc>https://marioalbar.github.io/Practica/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica1/en/tags/"
+                href="https://marioalbar.github.io/Practica/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica1/tags/"
+                href="https://marioalbar.github.io/Practica/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://marioalbar.github.io/Practica1/fr/tags/"
+                href="https://marioalbar.github.io/Practica/fr/tags/"
                 />
   </url>
   
