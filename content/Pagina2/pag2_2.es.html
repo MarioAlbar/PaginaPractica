@@ -1,0 +1,60 @@
+---
+title: "2/1_html"
+date: 2021-09-29T16:15:48+02:00
+draft: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Tabla</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2">Celda Combinada</th>
+            <th>Celda Normal</th>
+            <th colspan="2">Celda Combinada</th>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+            <td>C4</td>
+            <td>C5</td>
+        </tr>
+        <tr>
+            <td>C6</td>
+            <td>C7</td>
+            <td>C8</td>
+            <td colspan="2">C9 Comb.</td>
+        </tr>
+    </table>
+    <h2>Formulario</h2>
+    <form method="POST">
+        <label>Apellido y nombre:</label>
+        <input type="text" name="nombre" size="30" />
+        <br>
+        <label>Es mayor de edad?:</label>
+        <input type="radio" name="edad" checked />
+        <label>Si</label>
+        <br>
+        <input type="radio" name="edad" />
+        <label>No</label>
+        <br>
+        <label>Telefono:</label>
+        <input type="text" name="telefono" value="453-" />
+        <br>
+        <textarea rows="10" cols="50">Ingrese aqui sus comentarios</textarea>
+        <br>
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>

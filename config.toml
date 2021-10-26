@@ -1,33 +1,76 @@
-baseURL = "https://MarioAlbar.github.io/PaginaPocha"
+baseURL = "http://marioaldea.infenlaces.com/Hugo/Practica1"
+#baseURL = "http://localhost"
 languageCode = "en-us"
 title = "WebFachera"
 theme = "learn"
-
+defaultContentLanguage = "es"
 
 
 [outputs]
 home = ["HTML","RSS","JSON"]
 
-[[menu.shortcuts]] 
+# English is the default language
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+title = "web development"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]] 
 name = "<i class='fas fa-laugh-wink'></i> Icons"
 identifier = "icons"
 url = "https://fontawesome.com/v5.15/icons?d=gallery&p=2"
 weight = 10
 
-[[menu.shortcuts]]
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-wikipedia-w'></i> WikiEducator"
 url = "https://es.wikieducator.org/Usuario:ManuelRomero"
 weight = 11
 
-[[menu.shortcuts]]
+[[Languages.en.menu.shortcuts]]
 name = " <i class='fas fa-info'></i>  Learn Documentation"
 identifier = "learn"
 url = "https://learn.netlify.app/en/"
 weight = 20
 
-[[menu.shortcuts]]
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-medium-m'> </i> Moodle"
 url = "http://moodle.cpilosenlaces.com/"
 weight = 30
 
 
+[Languages.es]
+title = "Desarrollo web"
+weight = 2
+languageName = "Español"
+
+[[Languages.es.menu.shortcuts]] 
+name = "<i class='fas fa-laugh-wink'></i> Iconos"
+identifier = "icons"
+url = "https://fontawesome.com/v5.15/icons?d=gallery&p=2"
+weight = 10
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fab fa-wikipedia-w'></i> WikiEducator"
+url = "https://es.wikieducator.org/Usuario:ManuelRomero"
+weight = 11
+
+[[Languages.es.menu.shortcuts]]
+name = " <i class='fas fa-info'></i> Documentacion Learn"
+identifier = "learn"
+url = "https://learn.netlify.app/en/"
+weight = 20
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fab fa-medium-m'> </i> Moodle"
+url = "http://moodle.cpilosenlaces.com/"
+weight = 30
+
+
+[Languages.fr]
+title = "Desagollo"
+weight = 2
+languageName = "Français"

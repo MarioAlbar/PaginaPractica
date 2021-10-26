@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>marioaldea.infenlaces.com/Hugo/docs/fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="marioaldea.infenlaces.com/Hugo/docs/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="marioaldea.infenlaces.com/Hugo/docs/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="marioaldea.infenlaces.com/Hugo/docs/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>marioaldea.infenlaces.com/Hugo/docs/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="marioaldea.infenlaces.com/Hugo/docs/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="marioaldea.infenlaces.com/Hugo/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="marioaldea.infenlaces.com/Hugo/docs/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>marioaldea.infenlaces.com/Hugo/docs/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="marioaldea.infenlaces.com/Hugo/docs/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="marioaldea.infenlaces.com/Hugo/docs/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="marioaldea.infenlaces.com/Hugo/docs/fr/tags/"
+                />
+  </url>
+  
+</urlset>

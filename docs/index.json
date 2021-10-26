@@ -1,62 +1,62 @@
 [
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/pagina1/",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/pagina1/",
 	"title": "Pagina/1-Markdown",
 	"tags": [],
 	"description": "",
-	"content": "Markdown Descripcion Aqui podras encontrar algunos ejemplos de sentencias markdown integradas en hugo\n"
+	"content": "Markdown Descripcion afdadfa\nAqui podras encontrar algunos ejemplos de sentencias markdown integradas en hugo\n"
 },
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/pagina2/",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/pagina2/",
 	"title": "Pagina/2-Html",
 	"tags": [],
 	"description": "",
 	"content": "HTML Descripcion Aqui podras encontrar algunos ejemplos de sentencias html integrados en hugo\n"
 },
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/contenido/",
-	"title": "Contenidos",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/pagina3/",
+	"title": "Pagina/3-Programas",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "HTML Descripcion Aqui podras encontrar programas de television\n"
 },
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/contenido/descargas/",
-	"title": "Descargas",
-	"tags": [],
-	"description": "",
-	"content": "Descargar ficheros   Related files   celula.pdf  (5532 kb)    "
-},
-{
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/",
-	"title": "WebFachera",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/pagina2/pag2_2/",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/pagina2/pag2_2/",
 	"title": "2/1_html",
 	"tags": [],
 	"description": "",
 	"content": "  Document   Tabla  Celda Combinada Celda Normal Celda Combinada   C1 C2 C3 C4 C5   C6 C7 C8 C9 Comb.   Formulario Apellido y nombre: Es mayor de edad?: Si No Telefono: Ingrese aqui sus comentarios   "
 },
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/pagina1/pag1/",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/",
+	"title": "Desarrollo web",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/pagina1/pag1/",
 	"title": "1/1_Markdown",
 	"tags": [],
 	"description": "",
 	"content": "Codigo fuente html \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Parrafos\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;h1\u0026gt;Esto es un parrafo h1\u0026lt;/h1\u0026gt; \u0026lt;h2\u0026gt;Esto es un parrafo h2\u0026lt;/h2\u0026gt; \u0026lt;h3\u0026gt;Esto es un parrafo h3\u0026lt;/h3\u0026gt; \u0026lt;h4\u0026gt;Esto es un parrafo h4\u0026lt;/h4\u0026gt; \u0026lt;h5\u0026gt;Esto es un parrafo h5\u0026lt;/h5\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt; Tabla    Primera columna Segunda Columna Tercera columna     1-1 2-1 3-1   1-2 2-2 3-2   1-3 2-3 3-3    Enlaces Con formato de titulo Entra ha echarte unos bailes\nSin formato https://www.youtube.com/watch?v=dQw4w9WgXcQ\nEnlace a home de la misma pagina http://localhost:1313/\nListas Lista ordenada Lista desordenada "
 },
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/categories/",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/pagina3/pag1_3/",
+	"title": "1/3_Programas",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://MarioAlbar.github.io/PaginaPocha/tags/",
+	"uri": "marioaldea.infenlaces.com/Hugo/docs/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
