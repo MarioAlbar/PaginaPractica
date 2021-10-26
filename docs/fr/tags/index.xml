@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Desagollo</title>
-    <link>marioaldea.infenlaces.com/Hugo/docs/fr/tags/</link>
+    <link>https://marioalbar.github.io/Practica1/fr/tags/</link>
     <description>Recent content in Tags on Desagollo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="marioaldea.infenlaces.com/Hugo/docs/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marioalbar.github.io/Practica1/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
