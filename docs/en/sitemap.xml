@@ -3,150 +3,135 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/pagina1/</loc>
+    <loc>http://localhost/en/pagina1/</loc>
     <lastmod>2021-09-28T17:56:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/pagina1/"
+                href="http://localhost/pagina1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/pagina1/"
+                href="http://localhost/en/pagina1/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/pagina2/</loc>
+    <loc>http://localhost/en/pagina2/</loc>
     <lastmod>2021-09-28T18:06:13+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/pagina2/"
+                href="http://localhost/pagina2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/pagina2/"
+                href="http://localhost/en/pagina2/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/pagina3/</loc>
+    <loc>http://localhost/en/pagina3/</loc>
     <lastmod>2021-09-28T18:06:13+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/pagina3/"
+                href="http://localhost/pagina3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/pagina3/"
+                href="http://localhost/en/pagina3/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/pagina2/pag2_2/</loc>
+    <loc>http://localhost/en/pagina2/pag2_2/</loc>
     <lastmod>2021-09-29T16:15:48+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/pagina2/pag2_2/"
+                href="http://localhost/pagina2/pag2_2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/pagina2/pag2_2/"
+                href="http://localhost/en/pagina2/pag2_2/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/</loc>
+    <loc>http://localhost/en/</loc>
     <lastmod>2021-09-29T16:15:48+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://marioalbar.github.io/Practica/fr/"
+                href="http://localhost/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/"
+                href="http://localhost/en/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/pagina1/pag1/</loc>
+    <loc>http://localhost/en/pagina1/pag1/</loc>
     <lastmod>2021-09-28T17:56:47+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/pagina1/pag1/"
+                href="http://localhost/pagina1/pag1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/pagina1/pag1/"
+                href="http://localhost/en/pagina1/pag1/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/pagina3/pag1_3/</loc>
+    <loc>http://localhost/en/pagina3/pag1_3/</loc>
     <lastmod>2021-09-28T17:56:47+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/pagina3/pag1_3/"
+                href="http://localhost/pagina3/pag1_3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/pagina3/pag1_3/"
+                href="http://localhost/en/pagina3/pag1_3/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/categories/</loc>
+    <loc>http://localhost/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://marioalbar.github.io/Practica/fr/categories/"
+                href="http://localhost/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/categories/"
+                href="http://localhost/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/Practica/en/tags/</loc>
+    <loc>http://localhost/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://marioalbar.github.io/Practica/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://marioalbar.github.io/Practica/fr/tags/"
+                href="http://localhost/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://marioalbar.github.io/Practica/en/tags/"
+                href="http://localhost/en/tags/"
                 />
   </url>
   
