@@ -1,17 +1,18 @@
 #baseURL = "http://marioaldea.infenlaces.com/Hugo/Practica1"
-#baseURL = "http://localhost"
-baseURL = "https://marioalbar.github.io/Practica"
+baseURL = "http://localhost"
+#baseURL = "https://marioalbar.github.io/Practica"
 languageCode = "en-us"
 title = "WebFachera"
 theme = "learn"
 defaultContentLanguage = "es"
 
+[params]
+themeVariant = "mine"
+disableLandingPageButton = true
 
 [outputs]
 home = ["HTML","RSS","JSON"]
 
-# English is the default language
-# Force to have /en/my-page and /fr/my-page routes, even for default language.
 defaultContentLanguageInSubdir= true
 
 [Languages]
@@ -69,9 +70,3 @@ weight = 20
 name = "<i class='fab fa-medium-m'> </i> Moodle"
 url = "http://moodle.cpilosenlaces.com/"
 weight = 30
-
-
-[Languages.fr]
-title = "Desagollo"
-weight = 2
-languageName = "Français"
