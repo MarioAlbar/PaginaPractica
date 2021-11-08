@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pagina/4-PeticionesWeb on Desarrollo web</title>
+    <link>http://marioalbar.github.io/PaginaPractica1/pagina4/</link>
+    <description>Recent content in Pagina/4-PeticionesWeb on Desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 17:56:02 +0200</lastBuildDate>
+    
+	<atom:link href="http://marioalbar.github.io/PaginaPractica1/pagina4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4/1_Diagrama_Peticiones_Web</title>
+      <link>http://marioalbar.github.io/PaginaPractica1/pagina4/pag1/</link>
+      <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
+      
+      <guid>http://marioalbar.github.io/PaginaPractica1/pagina4/pag1/</guid>
+      <description>graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar
+2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD) los recursos solicitados</description>
+    </item>
+    
+  </channel>
+</rss>
