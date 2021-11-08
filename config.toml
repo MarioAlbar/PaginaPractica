@@ -1,6 +1,6 @@
 #baseURL = "http://marioaldea.infenlaces.com/Hugo/Practica1/"
 #baseURL = "http://localhost"
-baseURL = "https://marioalbar.github.io/PaginaPractica1/"
+baseURL = "https://marioalbar.github.io/PaginaPractica/"
 languageCode = "en-us"
 title = "WebFachera"
 theme = "learn"
