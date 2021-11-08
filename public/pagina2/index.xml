@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pagina/2-Html on Desarrollo web</title>
-    <link>https://marioalbar.github.io/PaginaPocha/pagina2/</link>
+    <link>http://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/</link>
     <description>Recent content in Pagina/2-Html on Desarrollo web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Sep 2021 18:06:13 +0200</lastBuildDate>
     
-	<atom:link href="https://marioalbar.github.io/PaginaPocha/pagina2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2/1_html</title>
-      <link>https://marioalbar.github.io/PaginaPocha/pagina2/pag2_2/</link>
+      <link>http://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/pag2_2/</link>
       <pubDate>Wed, 29 Sep 2021 16:15:48 +0200</pubDate>
       
-      <guid>https://marioalbar.github.io/PaginaPocha/pagina2/pag2_2/</guid>
+      <guid>http://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/pag2_2/</guid>
       <description>  Document   Tabla  Celda Combinada Celda Normal Celda Combinada   C1 C2 C3 C4 C5   C6 C7 C8 C9 Comb.   Formulario Apellido y nombre: Es mayor de edad?: Si No Telefono: Ingrese aqui sus comentarios   </description>
     </item>
     
