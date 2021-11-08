@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pagina/1-Markdown on Desarrollo web</title>
-    <link>http://marioalbar.github.io/PaginaPractica1/pagina1/</link>
+    <link>https://marioalbar.github.io/PaginaPractica1/pagina1/</link>
     <description>Recent content in Pagina/1-Markdown on Desarrollo web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Sep 2021 17:56:02 +0200</lastBuildDate>
     
-	<atom:link href="http://marioalbar.github.io/PaginaPractica1/pagina1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marioalbar.github.io/PaginaPractica1/pagina1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1/1_Markdown</title>
-      <link>http://marioalbar.github.io/PaginaPractica1/pagina1/pag1/</link>
+      <link>https://marioalbar.github.io/PaginaPractica1/pagina1/pag1/</link>
       <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
       
-      <guid>http://marioalbar.github.io/PaginaPractica1/pagina1/pag1/</guid>
+      <guid>https://marioalbar.github.io/PaginaPractica1/pagina1/pag1/</guid>
       <description>Codigo fuente html &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Parrafos&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;Esto es un parrafo h1&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;Esto es un parrafo h2&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;Esto es un parrafo h3&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;Esto es un parrafo h4&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;Esto es un parrafo h5&amp;lt;/h5&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Tabla    Primera columna Segunda Columna Tercera columna     1-1 2-1 3-1   1-2 2-2 3-2   1-3 2-3 3-3    Enlaces Con formato de titulo Entra ha echarte unos bailes</description>
     </item>
     
