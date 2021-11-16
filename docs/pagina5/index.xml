@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pagina/5-Descargas on Desarrollo web</title>
+    <link>https://marioalbar.github.io/PaginaPractica/pagina5/</link>
+    <description>Recent content in Pagina/5-Descargas on Desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 17:56:02 +0200</lastBuildDate>
+    
+	<atom:link href="https://marioalbar.github.io/PaginaPractica/pagina5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4/1_Diagrama_Peticiones_Web</title>
+      <link>https://marioalbar.github.io/PaginaPractica/pagina5/descargas/</link>
+      <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
+      
+      <guid>https://marioalbar.github.io/PaginaPractica/pagina5/descargas/</guid>
+      <description>   Related files   580b57fcd9996e24bc43c325.png  (20 kb)   BertJanssen-RelatividadGeneral.pdf  (2613 kb)   celula.pdf  (5532 kb)   índice.png  (8 kb)    </description>
+    </item>
+    
+  </channel>
+</rss>

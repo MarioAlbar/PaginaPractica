@@ -1,4 +1,4 @@
-#baseURL = "http://marioaldea.infenlaces.com/Hugo/Practica1/"
+#baseURL = "https://marioaldea.infenlaces.com/Hugo/Practica1/"
 #baseURL = "http://localhost"
 baseURL = "https://marioalbar.github.io/PaginaPractica/"
 languageCode = "en-us"

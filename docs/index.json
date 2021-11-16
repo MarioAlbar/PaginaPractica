@@ -28,6 +28,20 @@
 	"content": "Descripcion afdadfa\nAqui podras encontrar una breve explicacion del proceso que se lleva acabo para acceder a diferentes paginas webs\n"
 },
 {
+	"uri": "https://marioalbar.github.io/PaginaPractica/pagina5/",
+	"title": "Pagina/5-Descargas",
+	"tags": [],
+	"description": "",
+	"content": "Descripcion Aqui podras descargar pdfs muy interesantes\n"
+},
+{
+	"uri": "https://marioalbar.github.io/PaginaPractica/pagina6/",
+	"title": "Pagina/6-Tecnologías",
+	"tags": [],
+	"description": "",
+	"content": "Descripcion Aqui podras encontrar una breve explicacionde lo que son algunas de las tecnologías mas utilizadas en el entorno web actual\n"
+},
+{
 	"uri": "https://marioalbar.github.io/PaginaPractica/pagina2/pag2_2/",
 	"title": "2/1_html",
 	"tags": [],
@@ -46,7 +60,7 @@
 	"title": "1/1_Markdown",
 	"tags": [],
 	"description": "",
-	"content": "Codigo fuente html \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Parrafos\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;h1\u0026gt;Esto es un parrafo h1\u0026lt;/h1\u0026gt; \u0026lt;h2\u0026gt;Esto es un parrafo h2\u0026lt;/h2\u0026gt; \u0026lt;h3\u0026gt;Esto es un parrafo h3\u0026lt;/h3\u0026gt; \u0026lt;h4\u0026gt;Esto es un parrafo h4\u0026lt;/h4\u0026gt; \u0026lt;h5\u0026gt;Esto es un parrafo h5\u0026lt;/h5\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt; Tabla    Primera columna Segunda Columna Tercera columna     1-1 2-1 3-1   1-2 2-2 3-2   1-3 2-3 3-3    Enlaces Con formato de titulo Entra ha echarte unos bailes\nSin formato https://www.youtube.com/watch?v=dQw4w9WgXcQ\nEnlace a home de la misma pagina http://localhost:1313/\nListas Lista ordenada Lista desordenada "
+	"content": "Codigo fuente html \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Parrafos\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;h1\u0026gt;Esto es un parrafo h1\u0026lt;/h1\u0026gt; \u0026lt;h2\u0026gt;Esto es un parrafo h2\u0026lt;/h2\u0026gt; \u0026lt;h3\u0026gt;Esto es un parrafo h3\u0026lt;/h3\u0026gt; \u0026lt;h4\u0026gt;Esto es un parrafo h4\u0026lt;/h4\u0026gt; \u0026lt;h5\u0026gt;Esto es un parrafo h5\u0026lt;/h5\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt; Tabla    Primera columna Segunda Columna Tercera columna     1-1 2-1 3-1   1-2 2-2 3-2   1-3 2-3 3-3    Enlaces Con formato de titulo Entra ha echarte unos bailes\nSin formato https://www.youtube.com/watch?v=dQw4w9WgXcQ\nEnlace a home de la misma pagina http://localhost:1313/\nListas Lista ordenada  Elemento 1 Elemento 2 Elemento 3  Lista desordenada  Elemento 1 Elemento 2 Elemento 3  Lista desordenada con sublista ordenada  Elemento   Sub elemento 1. Sub elemento2.   Elemento 2   Sub elemento 1. Sub elemento2.  Imagenes Video "
 },
 {
 	"uri": "https://marioalbar.github.io/PaginaPractica/pagina3/pag1_3/",
@@ -60,7 +74,21 @@
 	"title": "4/1_Diagrama_Peticiones_Web",
 	"tags": [],
 	"description": "",
-	"content": " graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar\n2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD) los recursos solicitados\n3/.Respuesta Http Si todo ha salido bien y el servidor autoriza la respuesta http este devuelve el recurso pedido al cliente web junto con un codigo de estado y el tipo de dato mime de la indormacion de retorno\n4/.Pagina web el cliente web interpreta el codigo retornado por la respuesta http del servidor y muestra al usuario el recurso solicitado(html,css,php)\n"
+	"content": "Proceso http cliente-servidor graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar\n2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD\u0026hellip;) los recursos solicitados\n3/.Respuesta Http Si todo ha salido bien y el servidor autoriza la respuesta http este devuelve el recurso pedido al cliente web junto con un codigo de estado y el tipo de dato mime de la indormacion de retorno\n4/.Pagina web el cliente web interpreta el codigo retornado por la respuesta http del servidor y muestra al usuario el recurso solicitado(html,css,php)\nProceso Http/2 sequenceDiagram participant Cliente participant Servidor Cliente-Servidor: get/index.html Servidor-Cliente: Respuesta html Cliente-Servidor: get/style.css Cliente-Servidor: get/scripts.js Servidor-Cliente: Respuesta css Servidor-Cliente: Respuesta js  "
+},
+{
+	"uri": "https://marioalbar.github.io/PaginaPractica/pagina5/descargas/",
+	"title": "4/1_Diagrama_Peticiones_Web",
+	"tags": [],
+	"description": "",
+	"content": "   Related files   580b57fcd9996e24bc43c325.png  (20 kb)   BertJanssen-RelatividadGeneral.pdf  (2613 kb)   celula.pdf  (5532 kb)   índice.png  (8 kb)    "
+},
+{
+	"uri": "https://marioalbar.github.io/PaginaPractica/pagina6/tecnologias/",
+	"title": "6/1_Technologias_web",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://marioalbar.github.io/PaginaPractica/categories/",

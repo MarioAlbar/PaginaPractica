@@ -1,62 +1,76 @@
 [
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/pagina1/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina1/",
 	"title": "Pagina/1-Markdown",
 	"tags": [],
 	"description": "",
 	"content": "Markdown Descripcion afdadfa\nAqui podras encontrar algunos ejemplos de sentencias markdown integradas en hugo\n"
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/",
 	"title": "Pagina/2-Html",
 	"tags": [],
 	"description": "",
 	"content": "HTML Descripcion Aqui podras encontrar algunos ejemplos de sentencias html integrados en hugo\n"
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/pagina3/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina3/",
 	"title": "Pagina/3-Programas",
 	"tags": [],
 	"description": "",
 	"content": "HTML Descripcion Aqui podras encontrar programas de television\n"
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/pag2_2/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina4/",
+	"title": "Pagina/4-PeticionesWeb",
+	"tags": [],
+	"description": "",
+	"content": "Descripcion afdadfa\nAqui podras encontrar una breve explicacion del proceso que se lleva acabo para acceder a diferentes paginas webs\n"
+},
+{
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina2/pag2_2/",
 	"title": "2/1_html",
 	"tags": [],
 	"description": "",
 	"content": "  Document   Tabla  Celda Combinada Celda Normal Celda Combinada   C1 C2 C3 C4 C5   C6 C7 C8 C9 Comb.   Formulario Apellido y nombre: Es mayor de edad?: Si No Telefono: Ingrese aqui sus comentarios   "
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/",
 	"title": "Desarrollo web",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/pagina1/pag1/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina1/pag1/",
 	"title": "1/1_Markdown",
 	"tags": [],
 	"description": "",
 	"content": "Codigo fuente html \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Parrafos\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;h1\u0026gt;Esto es un parrafo h1\u0026lt;/h1\u0026gt; \u0026lt;h2\u0026gt;Esto es un parrafo h2\u0026lt;/h2\u0026gt; \u0026lt;h3\u0026gt;Esto es un parrafo h3\u0026lt;/h3\u0026gt; \u0026lt;h4\u0026gt;Esto es un parrafo h4\u0026lt;/h4\u0026gt; \u0026lt;h5\u0026gt;Esto es un parrafo h5\u0026lt;/h5\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt; Tabla    Primera columna Segunda Columna Tercera columna     1-1 2-1 3-1   1-2 2-2 3-2   1-3 2-3 3-3    Enlaces Con formato de titulo Entra ha echarte unos bailes\nSin formato https://www.youtube.com/watch?v=dQw4w9WgXcQ\nEnlace a home de la misma pagina http://localhost:1313/\nListas Lista ordenada Lista desordenada "
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/pagina3/pag1_3/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina3/pag1_3/",
 	"title": "1/3_Programas",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/categories/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/pagina4/pag1/",
+	"title": "4/1_Diagrama_Peticiones_Web",
+	"tags": [],
+	"description": "",
+	"content": " graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar\n2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD) los recursos solicitados\n3/.Respuesta Http Si todo ha salido bien y el servidor autoriza la respuesta http este devuelve el recurso pedido al cliente web junto con un codigo de estado y el tipo de dato mime de la indormacion de retorno\n4/.Pagina web el cliente web interpreta el codigo retornado por la respuesta http del servidor y muestra al usuario el recurso solicitado(html,css,php)\n"
+},
+{
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "http://marioaldea.infenlaces.com/Hugo/Practica1/tags/",
+	"uri": "https://marioaldea.infenlaces.com/Hugo/Practica1/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

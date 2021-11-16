@@ -44,8 +44,26 @@
       <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
       
       <guid>https://marioalbar.github.io/PaginaPractica/pagina4/pag1/</guid>
-      <description>graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar
-2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD) los recursos solicitados</description>
+      <description>Proceso http cliente-servidor graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar
+2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD&amp;hellip;) los recursos solicitados</description>
+    </item>
+    
+    <item>
+      <title>4/1_Diagrama_Peticiones_Web</title>
+      <link>https://marioalbar.github.io/PaginaPractica/pagina5/descargas/</link>
+      <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
+      
+      <guid>https://marioalbar.github.io/PaginaPractica/pagina5/descargas/</guid>
+      <description>   Related files   580b57fcd9996e24bc43c325.png  (20 kb)   BertJanssen-RelatividadGeneral.pdf  (2613 kb)   celula.pdf  (5532 kb)   índice.png  (8 kb)    </description>
+    </item>
+    
+    <item>
+      <title>6/1_Technologias_web</title>
+      <link>https://marioalbar.github.io/PaginaPractica/pagina6/tecnologias/</link>
+      <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
+      
+      <guid>https://marioalbar.github.io/PaginaPractica/pagina6/tecnologias/</guid>
+      <description></description>
     </item>
     
   </channel>
