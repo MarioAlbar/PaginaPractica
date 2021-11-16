@@ -17,8 +17,7 @@
       <pubDate>Tue, 28 Sep 2021 17:56:47 +0200</pubDate>
       
       <guid>https://marioalbar.github.io/PaginaPractica/pagina4/pag1/</guid>
-      <description>Proceso http cliente-servidor graph LR; A[Usuario ] --|1/.URL | B[Navegador ] -- |2/.Peticion HTTP| C[Servidor ] --|3/.Respuesta HTTP| B[Navegador ] --|4/.Pagina web | A[Usuario ]  1/.URL El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar
-2/.Peticion Http El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor) abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD&amp;hellip;) los recursos solicitados</description>
+      <description>1).Proceso de resolucion de dominio graph LR; A[Navegador ] --|www.google.com| B[Servidor DNS primario] B[Servidor DNS primario] --|consulta servidor raiz| C[Servidor DNS Raiz] --|Responde nombre de servidor .com| B[Servidor DNS primario] --|consulta a servidor .com| D[Servidor DNS .com] -- |Responde con nombre servidor google.com| B[Servidor DNS primario] --|consulta servidor google.com| E[Servidor DNS google.com] -- |Responde con la direccion ip de www.google.com| B[Servidor DNS primario] -- |Devuelve la direccion ip de www.google.com| A[Navegador ]  Una vez que tenemos la direccion del sitio el siguiente paso es realizar la peticion http por la que obtendremos los diferentes recursos solicitados si asi lo especifica el servidor.</description>
     </item>
     
   </channel>

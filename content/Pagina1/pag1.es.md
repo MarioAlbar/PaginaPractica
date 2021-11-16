@@ -67,7 +67,7 @@ draft: false
 2. Sub elemento2.
 
 ## ***Imagenes*** 
-
+![imagen](/PaginaPractica/images/1584713041_archive_shutterstock_1536287759.jpg)
 
 ## ***Video***
 

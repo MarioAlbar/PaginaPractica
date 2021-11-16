@@ -4,34 +4,47 @@ date: 2021-09-28T17:56:47+02:00
 draft: false
 ---
 
-## Proceso http cliente-servidor
+## 1).Proceso de resolucion de dominio
 
 {{<mermaid align="center">}}
 graph LR;
-    A[Usuario ] -->|1/.URL | B[Navegador ] --> |2/.Peticion HTTP| C[Servidor ] -->|3/.Respuesta HTTP| B[Navegador ] -->|4/.Pagina web | A[Usuario ]
+    A[Navegador ] -->|www.google.com| B[Servidor DNS primario] 
+    B[Servidor DNS primario] -->|consulta servidor raiz| C[Servidor DNS Raiz] -->|Responde nombre de servidor .com| B[Servidor DNS primario] -->|consulta a servidor .com| D[Servidor DNS .com] --> |Responde con nombre servidor google.com| B[Servidor DNS primario] -->|consulta servidor google.com| E[Servidor DNS google.com] --> |Responde con la direccion ip de www.google.com| B[Servidor DNS primario] 
+    --> |Devuelve la direccion ip de www.google.com| A[Navegador ]
 {{< /mermaid >}}
 
-### 1/.URL
-
-El usuario accede al navegador y introduce una direccion de dominio o accede atraves de un enlace al recurso que quiere solicitar
+Una vez que tenemos la direccion del sitio el siguiente paso es realizar la peticion http por la que obtendremos los diferentes recursos solicitados si asi lo especifica el servidor.
 
 
-### 2/.Peticion Http
+## 2).Proceso http cliente-servidor
 
-El cliente web separa la url en los diferentes segmentos (Protocolo de acceso,direccion dns,puerto,objeto requerido por el servidor)
-abriendose de esta manera una conexion TCP/IP con el servidor, al que se le piden por diferentes metodos(GET,POST,HEAD...) los recursos solicitados 
+En primer lugar http es un conjunto de reglas que permite a dos maquinas transferir texto con caracteristicas propias de internet y de esta manera establecer una conexion entre si.
 
-### 3/.Respuesta Http
+{{<mermaid align="center">}}
+graph LR;
+     B[Navegador ] --> |Peticion HTTP| C[Servidor ] -->|Respuesta HTTP| B[Navegador ] 
+{{< /mermaid >}}
 
-Si todo ha salido bien y el servidor autoriza la respuesta http este devuelve el recurso pedido al cliente web junto con un codigo de estado y el tipo de dato mime de la indormacion de retorno
+### 2.1) Peticion del Cliente al Servidor
 
-### 4/.Pagina web
+El cliente establece la comunicacion con el servidor enviandole una peticion en un formato especial conocido como http, hay varios metedos para establecer la peticion y algunos de ellos serian GET,POST,HEAD,PUT,CONNECT,OPTIONS... Cada uno con caracteristicas y semantica propias, aveces tambien conocidos como HTTP verbs. A continuacion se mostrara un ejemplo de una peticion de tipo GET:
 
-el cliente web interpreta el codigo retornado por la respuesta http del servidor y muestra al usuario el recurso solicitado(html,css,php)
+![imagen](/PaginaPractica/images/get.png)
 
-## Proceso Http/2
+En el se especifica la informacion necesaria acerca del recurso que quiero solicitar el cliente ademas de incluir cabeceras, estas cabeceras que aportan informacion como el servidor(Host), los formatos de respuesta que acepta el cliente(Accept) o la aplicacion que utiliza el cliente(User-Agent).
 
-{{< mermaid >}}
+
+### 2.2) Respuesta del Servidor al Cliente
+
+Cuando el servidor resuelve la peticion sabe que recurso necesita el cliente(URI) y que quiere hacer con ese recurso(metodo HTTP), a continuacion se muestra un ejemplo de respuesta http:
+
+![imagen](/PaginaPractica/images/respuesta.png)
+
+La respuesta contiene el recurso solicitado (html,css,js) junto con otra informacion como el codigo de estado que transmite el resultado global de la peticion o cabeceras como Content-Type que le dice al cliente el formato en el que devuelve el recurso.
+
+## 3)Proceso Http/2        
+
+{{< mermaid >}}                                 
 sequenceDiagram
     participant Cliente
     participant Servidor
@@ -39,6 +52,11 @@ sequenceDiagram
     Servidor->>Cliente: Respuesta html
     Cliente->>Servidor: get/style.css
     Cliente->>Servidor: get/scripts.js
-    Servidor->>Cliente: Respuesta css
+    Servidor->>Cliente: Respuesta css  
     Servidor->>Cliente: Respuesta js
 {{< /mermaid >}}
+
+
+Es el protocolo que se utiliza actualmente y la evolucion de http/1, gracias a el la web a podido evolucionar manteniento la flexibilidad y extensibilidad que lo han hecho ser un gran exito y un pilar fundamental para la web que conocemos actualmente. La unica diferencia respecto con http/1 es que http/2 permite que en una unica conexion se realizen en paralelo multiples solicitudes y respuestas.
+
+
