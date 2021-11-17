@@ -16,13 +16,13 @@ graph LR;
 Una vez que tenemos la direccion del sitio el siguiente paso es realizar la peticion http por la que obtendremos los diferentes recursos solicitados si asi lo especifica el servidor.
 
 
-## 2).Proceso http cliente-servidor
+## 2).Proceso HTTP
 
 En primer lugar http es un conjunto de reglas que permite a dos maquinas transferir texto con caracteristicas propias de internet y de esta manera establecer una conexion entre si.
 
 {{<mermaid align="center">}}
 graph LR;
-     B[Navegador ] --> |Peticion HTTP| C[Servidor ] -->|Respuesta HTTP| B[Navegador ] 
+     B[Navegador ] --> |Peticion HTTP| C[Servidor HTTP ] -->|Respuesta HTTP| B[Navegador ] 
 {{< /mermaid >}}
 
 ### 2.1) Peticion del Cliente al Servidor
@@ -42,7 +42,7 @@ Cuando el servidor resuelve la peticion sabe que recurso necesita el cliente(URI
 
 La respuesta contiene el recurso solicitado (html,css,js) junto con otra informacion como el codigo de estado que transmite el resultado global de la peticion o cabeceras como Content-Type que le dice al cliente el formato en el que devuelve el recurso.
 
-## 3)Proceso Http/2        
+### 2.3) Funcionamiento actual de Http/2        
 
 {{< mermaid >}}                                 
 sequenceDiagram

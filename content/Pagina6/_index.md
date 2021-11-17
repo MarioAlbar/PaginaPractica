@@ -6,7 +6,5 @@ chapter = true
 pre = "<b> </b>"
 +++
 
-### Descripcion
-
-Aqui podras encontrar una breve explicacionde lo que son algunas de las tecnologías mas utilizadas en el entorno web actual
+# Aqui podras encontrar una breve explicacionde lo que son algunas de las tecnologías mas utilizadas en el entorno web actual
 

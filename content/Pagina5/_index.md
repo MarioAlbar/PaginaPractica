@@ -6,7 +6,5 @@ chapter = true
 pre = "<b> </b>"
 +++
 
-### Descripcion
-
-Aqui podras descargar pdfs muy interesantes
+# Aqui podras descargar diferentes archivos como pdfs inetresantes e imagenes preciosas
 

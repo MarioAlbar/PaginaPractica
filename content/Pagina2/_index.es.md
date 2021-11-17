@@ -6,8 +6,4 @@ chapter = true
 pre = "<b> </b>"
 +++
 
-# HTML
-
-### Descripcion
-
-Aqui podras encontrar algunos ejemplos de sentencias html integrados en hugo
+# Aqui podras encontrar algunos ejemplos de sentencias html integrados en hugo

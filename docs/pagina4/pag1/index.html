@@ -12,22 +12,22 @@
     <title>4/1_Diagrama_Peticiones_Web :: Desarrollo web</title>
 
     
-    <link href="/PaginaPractica/css/nucleus.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/fontawesome-all.min.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/hybrid.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/featherlight.min.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/perfect-scrollbar.min.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/auto-complete.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/atom-one-dark-reasonable.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/theme.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/tabs.css?1637088245" rel="stylesheet">
-    <link href="/PaginaPractica/css/hugo-theme.css?1637088245" rel="stylesheet">
+    <link href="/PaginaPractica/css/nucleus.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/fontawesome-all.min.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/hybrid.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/featherlight.min.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/perfect-scrollbar.min.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/auto-complete.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/atom-one-dark-reasonable.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/theme.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/tabs.css?1637173984" rel="stylesheet">
+    <link href="/PaginaPractica/css/hugo-theme.css?1637173984" rel="stylesheet">
     
-    <link href="/PaginaPractica/css/theme-mine.css?1637088245" rel="stylesheet">
+    <link href="/PaginaPractica/css/theme-mine.css?1637173984" rel="stylesheet">
     
     
 
-    <script src="/PaginaPractica/js/jquery-3.3.1.min.js?1637088245"></script>
+    <script src="/PaginaPractica/js/jquery-3.3.1.min.js?1637173984"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -56,14 +56,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/PaginaPractica/js/lunr.min.js?1637088245"></script>
-<script type="text/javascript" src="/PaginaPractica/js/auto-complete.js?1637088245"></script>
+<script type="text/javascript" src="/PaginaPractica/js/lunr.min.js?1637173984"></script>
+<script type="text/javascript" src="/PaginaPractica/js/auto-complete.js?1637173984"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/marioalbar.github.io\/PaginaPractica\/";
     
 </script>
-<script type="text/javascript" src="/PaginaPractica/js/search.js?1637088245"></script>
+<script type="text/javascript" src="/PaginaPractica/js/search.js?1637173984"></script>
 
     
   </div>
@@ -219,9 +219,9 @@
  
   
     
-      <li data-nav-id="/PaginaPractica/pagina3/pag1_3/" title="1/3_Programas" class="dd-item ">
+      <li data-nav-id="/PaginaPractica/pagina3/pag1_3/" title="3/1_Programas" class="dd-item ">
         <a href="/PaginaPractica/pagina3/pag1_3/">
-        1/3_Programas
+        3/1_Programas
         
         </a>
     </li>
@@ -329,9 +329,9 @@
  
   
     
-      <li data-nav-id="/PaginaPractica/pagina5/descargas/" title="4/1_Diagrama_Peticiones_Web" class="dd-item ">
+      <li data-nav-id="/PaginaPractica/pagina5/descargas/" title="5/1_Diagrama_Peticiones_Web" class="dd-item ">
         <a href="/PaginaPractica/pagina5/descargas/">
-        4/1_Diagrama_Peticiones_Web
+        5/1_Diagrama_Peticiones_Web
         
         </a>
     </li>
@@ -449,18 +449,6 @@
               
               
                   
-                    
-                    
-                      <option id="en" value="https://marioalbar.github.io/PaginaPractica/en/pagina4/pag1/">English</option>
-                    
-                  
-              
-                  
-              
-          
-              
-              
-                  
               
                   
                     
@@ -545,13 +533,13 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#1proceso-de-resolucion-de-dominio">1).Proceso de resolucion de dominio</a></li>
-    <li><a href="#2proceso-http-cliente-servidor">2).Proceso http cliente-servidor</a>
+    <li><a href="#2proceso-http">2).Proceso HTTP</a>
       <ul>
         <li><a href="#21-peticion-del-cliente-al-servidor">2.1) Peticion del Cliente al Servidor</a></li>
         <li><a href="#22-respuesta-del-servidor-al-cliente">2.2) Respuesta del Servidor al Cliente</a></li>
+        <li><a href="#23-funcionamiento-actual-de-http2">2.3) Funcionamiento actual de Http/2</a></li>
       </ul>
     </li>
-    <li><a href="#3proceso-http2">3)Proceso Http/2</a></li>
   </ul>
 </nav>
     </div>
@@ -586,12 +574,12 @@ graph LR;
 </div>
 
 <p>Una vez que tenemos la direccion del sitio el siguiente paso es realizar la peticion http por la que obtendremos los diferentes recursos solicitados si asi lo especifica el servidor.</p>
-<h2 id="2proceso-http-cliente-servidor">2).Proceso http cliente-servidor</h2>
+<h2 id="2proceso-http">2).Proceso HTTP</h2>
 <p>En primer lugar http es un conjunto de reglas que permite a dos maquinas transferir texto con caracteristicas propias de internet y de esta manera establecer una conexion entre si.</p>
 
 <div class="mermaid" align="center">
 graph LR;
-     B[Navegador ] --> |Peticion HTTP| C[Servidor ] -->|Respuesta HTTP| B[Navegador ] 
+     B[Navegador ] --> |Peticion HTTP| C[Servidor HTTP ] -->|Respuesta HTTP| B[Navegador ] 
 </div>
 
 <h3 id="21-peticion-del-cliente-al-servidor">2.1) Peticion del Cliente al Servidor</h3>
@@ -602,7 +590,7 @@ graph LR;
 <p>Cuando el servidor resuelve la peticion sabe que recurso necesita el cliente(URI) y que quiere hacer con ese recurso(metodo HTTP), a continuacion se muestra un ejemplo de respuesta http:</p>
 <p><img src="/PaginaPractica/images/respuesta.png" alt="imagen"></p>
 <p>La respuesta contiene el recurso solicitado (html,css,js) junto con otra informacion como el codigo de estado que transmite el resultado global de la peticion o cabeceras como Content-Type que le dice al cliente el formato en el que devuelve el recurso.</p>
-<h2 id="3proceso-http2">3)Proceso Http/2</h2>
+<h3 id="23-funcionamiento-actual-de-http2">2.3) Funcionamiento actual de Http/2</h3>
 
 <div class="mermaid" align="center">                                 
 sequenceDiagram
@@ -871,19 +859,19 @@ sequenceDiagram
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/PaginaPractica/js/clipboard.min.js?1637088245"></script>
-    <script src="/PaginaPractica/js/perfect-scrollbar.min.js?1637088245"></script>
-    <script src="/PaginaPractica/js/perfect-scrollbar.jquery.min.js?1637088245"></script>
-    <script src="/PaginaPractica/js/jquery.sticky.js?1637088245"></script>
-    <script src="/PaginaPractica/js/featherlight.min.js?1637088245"></script>
-    <script src="/PaginaPractica/js/highlight.pack.js?1637088245"></script>
+    <script src="/PaginaPractica/js/clipboard.min.js?1637173984"></script>
+    <script src="/PaginaPractica/js/perfect-scrollbar.min.js?1637173984"></script>
+    <script src="/PaginaPractica/js/perfect-scrollbar.jquery.min.js?1637173984"></script>
+    <script src="/PaginaPractica/js/jquery.sticky.js?1637173984"></script>
+    <script src="/PaginaPractica/js/featherlight.min.js?1637173984"></script>
+    <script src="/PaginaPractica/js/highlight.pack.js?1637173984"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/PaginaPractica/js/modernizr.custom-3.6.0.js?1637088245"></script>
-    <script src="/PaginaPractica/js/learn.js?1637088245"></script>
-    <script src="/PaginaPractica/js/hugo-learn.js?1637088245"></script>
+    <script src="/PaginaPractica/js/modernizr.custom-3.6.0.js?1637173984"></script>
+    <script src="/PaginaPractica/js/learn.js?1637173984"></script>
+    <script src="/PaginaPractica/js/hugo-learn.js?1637173984"></script>
     
         
-            <script src="/PaginaPractica/mermaid/mermaid.js?1637088245"></script>
+            <script src="/PaginaPractica/mermaid/mermaid.js?1637173984"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

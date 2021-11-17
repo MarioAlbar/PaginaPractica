@@ -69,6 +69,6 @@ draft: false
 ## ***Imagenes*** 
 ![imagen](/PaginaPractica/images/1584713041_archive_shutterstock_1536287759.jpg)
 
-## ***Video***
+
 
 

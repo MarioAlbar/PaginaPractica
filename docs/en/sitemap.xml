@@ -48,21 +48,6 @@
   </url>
   
   <url>
-    <loc>https://marioalbar.github.io/PaginaPractica/en/pagina4/</loc>
-    <lastmod>2021-09-28T17:56:02+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marioalbar.github.io/PaginaPractica/pagina4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marioalbar.github.io/PaginaPractica/en/pagina4/"
-                />
-  </url>
-  
-  <url>
     <loc>https://marioalbar.github.io/PaginaPractica/en/pagina2/pag2_2/</loc>
     <lastmod>2021-09-29T16:15:48+02:00</lastmod>
     <xhtml:link
@@ -119,21 +104,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://marioalbar.github.io/PaginaPractica/en/pagina3/pag1_3/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://marioalbar.github.io/PaginaPractica/en/pagina4/pag1/</loc>
-    <lastmod>2021-09-28T17:56:47+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marioalbar.github.io/PaginaPractica/pagina4/pag1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marioalbar.github.io/PaginaPractica/en/pagina4/pag1/"
                 />
   </url>
   

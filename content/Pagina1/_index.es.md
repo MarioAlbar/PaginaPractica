@@ -6,10 +6,5 @@ chapter = true
 pre = "<b> </b>"
 +++
 
-# Markdown
-
-### Descripcion
-afdadfa
-
-Aqui podras encontrar algunos ejemplos de sentencias markdown integradas en hugo
+# Aqui podras encontrar algunos ejemplos de sentencias markdown integradas en hugo
 

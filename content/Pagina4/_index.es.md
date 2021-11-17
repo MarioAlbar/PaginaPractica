@@ -6,8 +6,5 @@ chapter = true
 pre = "<b> </b>"
 +++
 
-### Descripcion
-afdadfa
-
-Aqui podras encontrar una breve explicacion del proceso que se lleva acabo para acceder a diferentes paginas webs
+# Aqui podras encontrar una breve explicacion del proceso que se lleva acabo para acceder a diferentes paginas webs
 

@@ -6,8 +6,4 @@ chapter = true
 pre = "<b> </b>"
 +++
 
-# HTML
-
-### Descripcion
-
-Aqui podras encontrar programas de television
+# Aqui podras encontrar programas de television
